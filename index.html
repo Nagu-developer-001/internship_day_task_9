@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form id="registerForm" novalidate>
+    <h2>Register</h2>
+
+    <div class="form-group">
+        <input type="text" id="name" placeholder="Name">
+        <small class="error"></small>
+    </div>
+
+    <div class="form-group">
+        <input type="email" id="email" placeholder="Email">
+        <small class="error"></small>
+    </div>
+
+    <div class="form-group">
+        <input type="password" id="password" placeholder="Password">
+        <small class="error"></small>
+    </div>
+
+    <div class="form-group">
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <small class="error"></small>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
